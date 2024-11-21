@@ -19,7 +19,7 @@ Note: If your SageMath Python version is older than 3.9.0, some features in give
 
 ## Usage
 
-The standard way to run the attack with given parameters $N$, $e$, $\gamma$, $m$ and $t$ requires passing them as arguments step by step in command line. For instance, to run the attack with given parameters used in our paper, please first run `sage -python attack.py`:
+The standard way to run the attack with given parameters $N$, $e$, $\gamma$, $m$ and $t$ requires passing them as arguments step by step in command line. For instance, to run the attack with given parameters used in our paper, please first run `sage -python attack.py` and then type known parameters as indicated:
 
 ```commandline
 GCPRSA$ sage -python attack.py
