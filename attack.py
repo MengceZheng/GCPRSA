@@ -443,6 +443,6 @@ if __name__ == "__main__":
     m = int(input("Input m: "))
     t = int(input("Input t: "))
 
-    result, test_time = attack_GCPRSA_instance(N, e, gamma, m = m, t = t)
+    result, test_time = attack_GCPRSA_instance(N, e, gamma, m, t)
     if result:
         print(f"The attack costs {test_time:.3f} seconds...")
